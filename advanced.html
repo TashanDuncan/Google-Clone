@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" type="text/css" href="./style.css" media="screen"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="images.html">Images</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="appbar">
+            <h1>Advanced Search</h1>
+        </div>
+        
+        <section id="advanced">
+            <h2>Find Pages with...</h2>
+            <form action="https://google.com/search" class="advanced-form">
+                <div>
+                    <label for="all-words">all these words:</label>
+                    <input type="text" id="all-words" name="as_q">
+                </div>
+                <div>
+                    <label for="exact">this exact word or phrase:</label>
+                    <input type="text" id="exact" name="as_epq">
+                </div>
+                <div>
+                    <label for="any">any of these words:</label>
+                    <input type="text" id="any" name="as_oq">
+                </div>
+                <div>
+                    <label for="none">none of these words:</label>
+                    <input type="text" id="none" name="as_eq">
+                </div>
+                <div>
+                    <input type="submit" value="Advanced Search">
+                </div>
+
+            </form>
+        </section>
+    </body>
+</html>
